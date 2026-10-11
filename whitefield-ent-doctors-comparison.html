@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ENT Doctors – Whitefield Comparison</title>
+<style>
+  :root {
+    --bg: #f5f7fa;
+    --card: #ffffff;
+    --accent: #0d6efd;
+    --accent-dark: #0a58ca;
+    --text: #1a1a1a;
+    --muted: #5c6770;
+    --border: #e8ecef;
+    --allergy: #e8f0fe;
+    --allergy-text: #084298;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.45;
+    font-size: 15px;
+    padding: 12px;
+  }
+  header {
+    text-align: center;
+    background: var(--card);
+    padding: 18px 14px;
+    border-radius: 14px;
+    margin-bottom: 14px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  }
+  header h1 {
+    font-size: 1.35rem;
+    color: var(--accent-dark);
+    margin-bottom: 6px;
+  }
+  header p {
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  .doctor-card {
+    background: var(--card);
+    border-radius: 14px;
+    padding: 16px;
+    margin-bottom: 14px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  }
+  .doctor-header {
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+  }
+  .doctor-name {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--accent-dark);
+    margin-bottom: 4px;
+  }
+  .badge {
+    display: inline-block;
+    font-size: 0.72rem;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+  .badge.allergy {
+    background: var(--allergy);
+    color: var(--allergy-text);
+  }
+  .badge.hod {
+    background: #d1e7dd;
+    color: #0f5132;
+  }
+  .section {
+    margin-bottom: 10px;
+  }
+  .section-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: var(--muted);
+    margin-bottom: 2px;
+  }
+  .section-value {
+    font-size: 0.92rem;
+  }
+  .section-value strong {
+    font-weight: 600;
+  }
+  .recommendation {
+    background: #fff8e6;
+    border-left: 3px solid #f0ad4e;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 0.88rem;
+    margin-bottom: 16px;
+  }
+  .recommendation strong {
+    display: block;
+    margin-bottom: 6px;
+    color: #664d03;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>ENT Doctors – Whitefield</h1>
+  <p>Allergy-focused comparison (rhinitis, sinus, testing & immunotherapy)</p>
+</header>
+
+<div class="recommendation">
+  <strong>Quick Guide</strong>
+  • Strongest formal allergy training → Dr. Meera Ranjini or Dr. Meghna Potluri<br>
+  • Allergy + possible surgery → Dr. Jyotirmay Hegde or Manipal ENT<br>
+  • High-volume practical care → Dr. Alok Banka
+</div>
+
+<!-- Dr. Meera Ranjini -->
+<div class="doctor-card">
+  <div class="doctor-header">
+    <div class="doctor-name">Dr. Meera Ranjini C</div>
+    <span class="badge allergy">Formal Allergy Diploma</span>
+  </div>
+  <div class="section">
+    <div class="section-label">Qualifications</div>
+    <div class="section-value">
+      <strong>MBBS</strong> — Govt Medical College, Trivandrum (1995)<br>
+      <strong>DLO</strong> — St. John’s Medical College, Bangalore (~2001)<br>
+      <strong>M.Phil</strong> — BITS Pilani (~2006)<br>
+      <strong>DAA</strong> (Allergy, Asthma & Immunology) — CMC Vellore + International Asthma Services, USA (2016)
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-label">Experience</div>
+    <div class="section-value">
+      24–30 years<br>
+      <em>Past:</em> Lecturer, MVJ Medical College; Owner, Aashraya ENT Healthcare; Consultant, Medihope Hospital & Telerad RxDx
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-label">Location</div>
+    <div class="section-value">RxDx Clinics, Whitefield (Kundalahalli Main Rd)</div>
+  </div>
+  <div class="section">
+    <div class="section-label">Fee</div>
+    <div class="section-value">₹700–750 (Practo / RxDx)</div>
+  </div>
+  <div class="section">
+    <div class="section-label">Ratings</div>
+    <div class="section-value">Very high (~97% recommended, 1400+ patient stories on Practo)</div>
+  </div>
+  <div class="section">
+    <div class="section-label">Strengths</div>
+    <div class="section-value">Formal dual training; thorough approach; immunotherapy</div>
+  </div>
+  <div class="section">
+    <div class="section-label">Best For</div>
+    <div class="section-value">Pure allergy-focused ENT; overlapping ENT-allergy cases</div>
+  </div>
+</div>
+
+<!-- Dr. Meghna Potluri -->
+<div class="doctor-card">
+  <div class="doctor-header">
+    <div class="doctor-name">Dr. Meghna Potluri</div>
+    <span class="badge allergy">Allergy Fellowship</span>
+  </div>
+  <div class="section">
+    <div class="section-label">Qualifications</div>
+    <div class="section-value">
+      <strong>MBBS</strong> — Rajiv Gandhi University of Health Sciences (JJMMC Davangere) (2010)<br>
+      <strong>MS (ENT)</strong> — Dr. NTR University of Health Sciences (2014)<br>
+      <strong>FACI</strong> — Fellowship in Allergy & Clinical Immunology<br>
+      Member: European Academy of Allergy and Clinical Immunology (EAACI)
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-label">Experience</div>
+    <div class="section-value">
+      15–16 years<br>
+      <em>Past / Current:</em> Manipal Hospital Varthur Road; Apollo Clinics; Columbia Asia (earlier)
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-label">Location</div>
+    <div class="section-value">Medicover (ITPL/Hoodi), Manipal Varthur, Expert Clinics</div>
+  </div>
+  <div class="section">
+    <div class="section-label">Fee</div>
+    <div class="section-value">₹900–1800 (varies by hospital; lower at some platforms)</div>
+  </div>
+  <div class="section">
+    <div class="section-label">Ratings</div>
+    <div class="section-value">High (~95% recommended on Practo; strong feedback on Medicover & Manipal)</div>
+  </div>
+  <div class="section">
+    <div class="section-label">Strengths</div>
+    <div class="section-value">Dedicated allergy focus; food/skin/drug allergies; pediatric; immunotherapy</div>
+  </div>
+  <div class="section">
+    <div class="section-label">Best For</div>
+    <div class="section-value">Complex multi-system allergies; immunotherapy candidates</div>
+  </div>
+</div>
+
+<!-- Dr. Jyotirmay Hegde -->
+<div class="doctor-card">
+  <div class="doctor-header">
+    <div class="doctor-name">Dr. Jyotirmay S Hegde</div>
+    <span class="badge hod">HOD – Aster</span>
+  </div>
+  <div class="section">
+    <div class="section-label">Qualifications</div>
+    <div class="section-value">
+      <strong>MBBS</strong> — J.N. Medical College, Belgaum (~2003)<br>
+      <strong>MS (ENT)</strong> — Karnataka Institute of Medical Sciences (KIMS), Hubli (2009)<br>
+      Fellowship in Endoscopic Sinus Surgery — Bombay Hospital, Mumbai (2010)<br>
+      Fellowship in Rhinology & Endoscopic Skull Base Surgery — University Hospital Aintree, Liverpool, UK<br>
+      Fellow of the European Board of Otorhinolaryngology (FEBORL, 2019)<br>
+      Author: <em>CSF Rhinorrhoea</em> (2021)
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-label">Experience</div>
+    <div class="section-value">
+      16–22 years<br>
+      <em>Past:</em> Associate Professor, JIPMER Pondicherry; Consultant, Columbia Asia Whitefield; SDM Medical College, Dharwad
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-label">Location</div>
+    <div class="section-value">Aster Whitefield Hospital (HOD)</div>
+  </div>
+  <div class="section">
+    <div class="section-label">Fee</div>
+    <div class="section-value">~₹900 (Practo / Aster Whitefield)</div>
+  </div>
+  <div class="section">
+    <div class="section-label">Ratings</div>
+    <div class="section-value">High (~96% recommended on Practo, ~150 patient stories)</div>
+  </div>
+  <div class="section">
+    <div class="section-label">Strengths</div>
+    <div class="section-value">Advanced rhinology; hospital testing & immunotherapy; international training</div>
+  </div>
+  <div class="section">
+    <div class="section-label">Best For</div>
+    <div class="section-value">Sinus/allergy with possible surgery; advanced diagnostics</div>
+  </div>
+</div>
+
+<!-- Dr. Alok Banka -->
+<div class="doctor-card">
+  <div class="doctor-header">
+    <div class="doctor-name">Dr. Alok Banka</div>
+  </div>
+  <div class="section">
+    <div class="section-label">Qualifications</div>
+    <div class="section-value">
+      <strong>MBBS</strong> — University of Burdwan (2003)<br>
+      <strong>MS (ENT)</strong> — IPGMER / West Bengal University of Health Sciences, Kolkata (2007)<br>
+      Research Associate (Cochlear Implant project) — AIIMS New Delhi (under Prof. R.C. Deka)
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-label">Experience</div>
+    <div class="section-value">
+      21–23 years<br>
+      <em>Past:</em> Senior Resident, GTB Hospital & St. Stephen’s Hospital (Delhi); Columbia Asia; Narayana Hospital; Yashomati Hospital
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-label">Location</div>
+    <div class="section-value">Cogent Care (near Hope Farm) + Manipal Varthur</div>
+  </div>
+  <div class="section">
+    <div class="section-label">Fee</div>
+    <div class="section-value">₹600–850 (₹600 at Cogent Care; higher at Manipal)</div>
+  </div>
+  <div class="section">
+    <div class="section-label">Ratings</div>
+    <div class="section-value">Very high volume (~93% recommended on Practo, 3000+ patient stories; 4.7 on Justdial from 3400+ ratings)</div>
+  </div>
+  <div class="section">
+    <div class="section-label">Strengths</div>
+    <div class="section-value">High volume; practical allergy/sinus care; strong surgical skills</div>
+  </div>
+  <div class="section">
+    <div class="section-label">Best For</div>
+    <div class="section-value">Busy clinic experience; routine allergy + surgical ENT</div>
+  </div>
+</div>
+
+<!-- Dr. Santhosh Velu -->
+<div class="doctor-card">
+  <div class="doctor-header">
+    <div class="doctor-name">Dr. Santhosh Velu P V</div>
+  </div>
+  <div class="section">
+    <div class="section-label">Qualifications</div>
+    <div class="section-value">
+      <strong>MBBS</strong> — Bangalore Medical College & Research Institute (2005)<br>
+      <strong>MS (ENT)</strong> — Bangalore Medical College & Research Institute (2010)<br>
+      Member: All India Allergy Association; Association of Otolaryngologists of India
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-label">Experience</div>
+    <div class="section-value">
+      17–20+ years<br>
+      <em>Past / Current:</em> Multiple Manipal locations (including Millers Road & Budigere); earlier clinic associations
+    </div>
+  </div>
+  <div class="section">
+    <div class="section-label">Location</div>
+    <div class="section-value">Manipal Hospital Whitefield</div>
+  </div>
+  <div class="section">
+    <div class="section-label">Fee</div>
+    <div class="section-value">~₹750 (Practo / MediBuddy at Manipal Whitefield)</div>
+  </div>
+  <div class="section">
+    <div class="section-label">Ratings</div>
+    <div class="section-value">Good (4.8/5 on Google from 130+ reviews; positive feedback on Practo & hospital platforms)</div>
+  </div>
+  <div class="section">
+    <div class="section-label">Strengths</div>
+    <div class="section-value">Hospital infrastructure; medical + surgical ENT; allergy management</div>
+  </div>
+  <div class="section">
+    <div class="section-label">Best For</div>
+    <div class="section-value">Allergy + surgical cases at a large hospital</div>
+  </div>
+</div>
+
+</body>
+</html>
